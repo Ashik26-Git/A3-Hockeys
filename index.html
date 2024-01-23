@@ -29,6 +29,26 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .bg-pic-one {
+            background-image: url(Images/2.png);
+            max-width: 573px;
+
+        }
+
+        .bg-pic-two {
+            background-image: url(Images/3.png);
+            max-width: 573px;
+            max-height: 500px;
+
+        }
+
+        .bg-pic-three {
+            background-image: url(Images/4.png);
+            max-width: 1170px;
+            max-height: 550px;
+
+        }
     </style>
 </head>
 
@@ -80,6 +100,30 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/slider2.jpg" class="w-full rounded-2xl " />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/slider3.jpeg" class="w-full rounded-2xl " />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/slider4.jpg" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+            </div>
+
 
             </div>
         </section>
@@ -94,13 +138,14 @@
                     adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
             <div class=" flex flex-col gap-5 lg:flex-row lg:mx-32 lg:mt-20">
-                <div class="space-y-4 mt-4">
+                <div class="space-y-4 mt-4 lg:mt-0">
                     <div class="flex justify-center">
                         <div class="radial-progress text-button-color" style="--value:87;  " role="progressbar"><span
                                 class="text-black text-2xl font-extrabold">87%</span></div>
                     </div>
                     <h2 class="text-xl text-center font-semibold">Prayer Facility</h2>
-                    <p class="text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-sm lg:text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim
+                        adipiscing
                         .</p>
                 </div>
                 <div class="space-y-4">
@@ -109,7 +154,8 @@
                                 class="text-black text-2xl font-extrabold">95%</span></div>
                     </div>
                     <h2 class="text-xl text-center font-semibold">Experienced Coach</h2>
-                    <p class="text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-sm lg:text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim
+                        adipiscing
                         .</p>
                 </div>
                 <div class="space-y-4">
@@ -118,7 +164,8 @@
                                 class="text-black text-2xl font-extrabold">90%</span></div>
                     </div>
                     <h2 class="text-xl text-center font-semibold">Senior Player</h2>
-                    <p class="text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-sm lg:text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim
+                        adipiscing
                         .</p>
                 </div>
                 <div class="space-y-4">
@@ -127,7 +174,8 @@
                                 class="text-black text-2xl font-extrabold">80%</span></div>
                     </div>
                     <h2 class="text-xl text-center font-semibold">Training Ground</h2>
-                    <p class="text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim adipiscing
+                    <p class="text-sm lg:text-base text-center text-[#424247] ">Amet consectetur. Condimentum dignissim
+                        adipiscing
                         .</p>
                 </div>
 
@@ -142,11 +190,10 @@
             </div>
             <div class="lg:mx-32">
                 <div class="flex flex-col lg:flex-row gap-6 mt-12 lg:mt-20">
-                    <div class="hero  rounded-2xl"
-                        style="background-image: url(Images/2.png); max-width: 573px; max-height: 350px;">
-                        <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero flex-1 rounded-2xl bg-pic-one bg-opacity-50">
+                        <div class="hero-overlay "></div>
                         <div class="hero-content text-start text-neutral-content">
-                            <div class="max-w-md">
+                            <div class="">
                                 <h1 class="mb-5 text-xl lg:text-3xl text-white font-extrabold">Junior Program</h1>
                                 <p class="mb-5 text-sm lg:text-base font-medium text-white">Provident cupiditate
                                     voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
@@ -157,11 +204,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero  rounded-2xl"
-                        style="background-image: url(Images/3.png); max-width: 573px; max-height: 350px;">
-                        <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero flex-1 rounded-2xl bg-pic-two bg-opacity-50">
+                        <div class="hero-overlay"></div>
                         <div class="hero-content text-start text-neutral-content">
-                            <div class="max-w-md">
+                            <div class="">
                                 <h1 class="mb-5 text-xl lg:text-3xl text-white font-extrabold">Teenager Program</h1>
                                 <p class="mb-5 text-sm lg:text-base font-medium text-white">Provident cupiditate
                                     voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
@@ -174,11 +220,10 @@
                     </div>
                 </div>
                 <div>
-                    <div class="hero  rounded-2xl mt-6"
-                        style="background-image: url(Images/4.png); max-width: 1170px; max-height: 550px;">
-                        <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero  rounded-2xl mt-6 bg-pic-three bg-opacity-50">
+                        <div class="hero-overlay"></div>
                         <div class="hero-content align-baseline text-start text-neutral-content">
-                            <div class="max-w-md">
+                            <div class="">
                                 <h1 class="mb-5 text-left text-xl lg:text-3xl text-white font-extrabold">Professional
                                     Program</h1>
                                 <p class="mb-5 text-left text-sm lg:text-base font-medium text-white">Provident
@@ -196,16 +241,551 @@
         <section class="container mx-auto">
             <div class="mt-16 lg:mt-32 space-y-6">
                 <h1 class="text-[#131318] text-2xl lg:text-3xl text-center font-extrabold">Our New Products</h1>
-                <P class="text-sm lg:text-base text-[#424247] text-center font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                <P class="text-sm lg:text-base text-[#424247] text-center font-medium">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </P>
             </div>
-            <div class="mt-20">
+            <div class="mt-20 lg:mx-32">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/5.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">World Cup Jacket</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
 
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/6.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">World Cup Flags Football</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/7.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">Cap For Hockeys</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/8.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">World Cup Jerrsy</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/9.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">Helmet for Cricket</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex-col lg:flex-row card-side bg-base-100 border p-6">
+                        <figure><img src="Images/10.png" alt="Movie" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 text-[#89898B] text-base font-medium">
+                                <div class="rating gap-2">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                    </svg>
+                                    <p>200</p>
+                                </div>
+                            </div>
+                            <h2 class="card-title text-xl font-extrabold text-black">World Cup Flags Football</h2>
+                            <p class="text-base font-medium text-[#424247]">Dolor sit amet consectetur. Ut urna diam
+                                quis sagittis. </p>
+                            <div class="card-actions gap-5">
+                                <div>
+                                    <p class="text-[#FF4240] text-lg font-extrabold">Price - $22.00</p>
+                                </div>
+                                <div class="flex gap-1 text-[#89898B]">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <p class="text-base font-medium">Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto">
+            <div class="mt-20 lg:mt-32 lg:mx-32">
+                <div class="space-y-2">
+                    <h1 class="text-[#131318] text-2xl text-center lg:text-4xl font-extrabold">Clients Question</h1>
+                    <p class="text-sm lg:text-base text-center text-[#424247] font-medium">Dit amet consectetur.
+                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+                <div class="mt-20">
+
+                    <div class="flex flex-col lg:flex-row gap-10 p-8 border rounded-2xl">
+                        <img src="Images/11.png" class=" rounded-lg " />
+                        <div>
+                            <div class="collapse collapse-plus ">
+                                <input type="radio" name="my-accordion-3" checked="checked" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content ">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus border-t rounded-none divide-inherit">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus border-t rounded-none divide-inherit">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus border-t rounded-none divide-inherit">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus border-t rounded-none divide-inherit">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Booking
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                            <div class="collapse collapse-plus border-t rounded-none divide-inherit">
+                                <input type="radio" name="my-accordion-3" />
+                                <div class="collapse-title text-xl text-[#131318] font-bold">
+                                    Pricings
+                                </div>
+                                <div class="collapse-content">
+                                    <p class="text-[#424247] text-base">Dolor sit amet consectetur. Ut urna diam quis
+                                        sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto">
+            <div class="mt-20 lg:mx-32 lg:mt-32">
+                <div class="space-y-2">
+                    <h1 class="text-[#131318] text-2xl text-center lg:text-4xl font-extrabold">Get In Touch</h1>
+                    <p class="text-sm lg:text-base text-center text-[#424247] font-medium">Dit amet consectetur.
+                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+                <div class="mt-20">
+                    <div class="flex flex-col lg:flex-row gap-16">
+                        <div class="border p-12 flex flex-col gap-6">
+                            <div class="w-64 lg:w-96 bg-base-100 space-y-5 bg-stone-50 rounded-2xl">
+                                <div class="p-8">
+                                    <figure><img src="Images/call.png" alt="call" /></figure>
+                                    <div class="">
+                                        <h2 class=" text-[#89898B] text-base font-normal">Phone Number</h2>
+                                        <p class="text-[#131318] text-lg font-extrabold">(+62) 123-321-543</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-64 lg:w-96 bg-base-100 space-y-5 bg-orange-50 rounded-2xl">
+                                <div class="p-8">
+                                    <figure><img class="" src="Images/mail.png" alt="call" /></figure>
+                                    <div class="">
+                                        <h2 class=" text-[#89898B] text-base font-normal">Email</h2>
+                                        <p class="text-[#131318] text-lg font-extrabold">hockeys@support.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-64 lg:w-96 bg-base-100 space-y-5 bg-green-50 rounded-2xl">
+                                <div class="p-8">
+                                    <figure><img class="" src="Images/location.png" alt="call" /></figure>
+                                    <div class="">
+                                        <h2 class=" text-[#89898B] text-base font-normal">Location</h2>
+                                        <p class="text-[#131318] text-lg font-extrabold">152/1 Mohakhali Wireless Gate
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 ">
+                                <div class="space-y-6">
+                                    <h3 class="text-[#131318] text-xl font-bold">Your Name</h3>
+                                    <input type="text" placeholder="Enter your full name"
+                                        class="input input-bordered w-full max-w-xs bg-stone-50 border-none outline-none" />
+                                </div>
+                                <div class="space-y-6">
+                                    <h3 class="text-[#131318] text-xl font-bold">Your Email</h3>
+                                    <input type="text" placeholder="Enter your email"
+                                        class="input input-bordered w-full max-w-xs bg-stone-50 border-none outline-none" />
+                                </div>
+                                <div class="space-y-6">
+                                    <h3 class="text-[#131318] text-xl font-bold">Subject</h3>
+                                    <input type="text" placeholder="Enter your subject"
+                                        class="input input-bordered w-full max-w-xs bg-stone-50 border-none outline-none" />
+                                </div>
+                                <div class="space-y-6">
+                                    <h3 class="text-[#131318] text-xl font-bold">Phone Number</h3>
+                                    <input type="text" placeholder="Enter your phone number"
+                                        class="input input-bordered w-full max-w-xs bg-stone-50 border-none outline-none" />
+                                </div>
+                            </div>
+                            <div class="space-y-6">
+                                <h3 class="text-[#131318] text-xl font-bold">Message</h3>
+                                <textarea class="textarea w-[335px] lg:w-[700px] h-[200px] lg:h-[370px]"
+                                    placeholder="Write your message" disabled></textarea>
+                                <button class="btn bg-button-color w-[335px] lg:w-[700px] text-white">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto">
+            <div class="lg:mx-32 mt-12 space-y-3 bg-gray-100 rounded-2xl ">
+                <h1 class="text-[#131318] pt-8 text-center text-2xl font-extrabold">Social Media</h1>
+                <div class="flex justify-center gap-7 pb-8">
+                    <img class="w-10 h-10" src="Images/twitter.jpg" alt="">
+                    <img class="w-10 h-10" src="Images/fb-icone.png" alt="">
+                    <img class="w-10 h-10" src="Images/insta-icon.png" alt="">
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="container mx-auto">
+        <div class="mt-10 lg:mt-24">
+            <div class="footer px-10 lg:px-32 py-24 bg-[#131318] text-base-content">
+                <aside class="space-y-4 ">
+                    <h3 class="text-2xl lg:text-3xl text-center pl-10 lg:pl-0 lg:text-start  font-extrabold text-white">Get In Touch</h3>
+                    <p class="text-base text-[#ffffff99] text-center lg:text-start font-medium">Dit amet consectetur. Condimentum adipiscing
+                        aliquam turpis</p>
+                    <div class="space-y-4">
+                        <div class="flex gap-2 justify-center pl-6 lg:pl-0">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="red" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="text-base text-[#ffffff99] font-medium">hockeys@support.com</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 justify-center lg:justify-start pl-5 lg:pl-0">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="red" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                                </svg>
 
+                            </div>
+                            <div>
+                                <p class="text-base text-[#ffffff99] font-medium">(+62) 123-321-543</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="grid grid-cols-2 gap-10 lg:gap-40 ">
+                    <nav class="flex flex-col gap-8">
+                        <header class="text-white text-lg text-center lg:text-start lg:text-sta font-bold">Company</header>
+                        <div class="flex flex-col justify-center gap-5">
+                            <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">About Us</a>
+                            <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Leadership</a>
+                            <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Careers</a>
+                            <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">News & Article</a>
+                            <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Legal Notice</a>
+                        </div>
+                    </nav>
+                    <nav class="flex flex-col gap-8">
+                        <header class=" text-white text-lg text-center lg:text-start font-bold">Support</header>
+                        <div class="flex flex-col gap-5">
+                            <a class="text-base text-center lg:text-start font font-medium text-[#ffffff99]">Help Center</a>
+                            <a class="text-base text-center lg:text-start font font-medium text-[#ffffff99]">FAQ</a>
+                            <a class="text-base text-center lg:text-start font font-medium text-[#ffffff99]">Ticket Support</a>
+                            <a class="text-base text-center lg:text-start font font-medium text-[#ffffff99]">Contact Us</a>
+                        </div>
+                    </nav>
+                    
+                </div>
+                <nav class="flex flex-col pl-16 lg:pl-0 gap-8">
+                    <header class=" text-white text-lg text-center pl-6 lg:pl-0 lg:text-start  font-bold">Services</header>
+                    <div class="flex flex-col gap-5">
+                        <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Academy</a>
+                        <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Group Lesson</a>
+                        <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Privet Lesson</a>
+                        <a class="text-base text-center lg:text-start font-medium text-[#ffffff99]">Hockeys for Adult</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </footer>
 </body>
 
